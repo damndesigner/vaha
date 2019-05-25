@@ -1,0 +1,81 @@
+body{background: #eee}
+h1{color: red;
+	text-align: center;
+
+}
+.blok1 {display: inline-block;
+	top: 100px;
+	left: 30px;
+	width: 115px;
+	height: 60px;
+	background-color: coral;
+	border: 1px solid black;
+
+
+
+}
+.blok2 { display: inline-block;
+	top:100px;
+	left:400px;
+	width:115px;
+	height:60px;
+	background-color: coral;
+	border: 1px solid black;
+
+
+
+}
+.blok3 { display: inline-block;
+	top: 100px;
+	left: 700px;
+	width: 115px;
+	height: 60px;
+	background-color: coral;
+	border: 1px solid black;
+
+}
+.blok4 {display: inline-block;
+	top: 100px;
+	left: 700px;
+	width: 115px;
+	height: 60px;
+	background-color:coral;
+	border: 1px solid black;
+
+}
+.parent{display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	
+}
+.grand{display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+
+
+
+}
+.grand1{
+	width: 150px;
+	height: 390px;
+	border: 1px solid black;
+}
+.grand2{
+	display: flex;
+	width: 600px;
+	flex-wrap: wrap;
+	border: 1px solid black;
+}
+.content{
+	width: 790px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.child{
+	width: 170px;
+	height: 120px;
+	background-color: white;
+	border: 1px solid black; 
+}	
+
